@@ -18,9 +18,9 @@
     
     
     <bean  id = "driverDataSource" class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
-    	<constructor-arg name = "url" value = "jdbc:mysql://127.0.0.1:3306/spring_jdbc"/>
+    	<constructor-arg name = "url" value = "jdbc:mysql://127.0.0.1:3306/'spring_jdbc'.student"/>
     	<constructor-arg name = "username" value = "root"/>
-    	<constructor-arg name = "password" value = ""/>
+    	<constructor-arg name = "password" value = "root"/>
     </bean>
     
     <bean id = "studentDao" class = "basic.dao.StudentDaoImpl">
